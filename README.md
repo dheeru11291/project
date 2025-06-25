@@ -1,1 +1,2 @@
-# project
+ this is a clone website of Amazon
+ 
