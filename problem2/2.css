@@ -1,0 +1,148 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    
+    
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 75px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.img{
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url("profile.jpg");
+    background-size: cover;
+}
+.in{
+    color: blue;
+    opacity: 0.5;
+}
+
+.upper{
+    display: flex;
+    width: 560px;
+    height: 50px;
+    margin-top: 100px;
+}
+.user{
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.past{
+    display: flex;
+    flex-direction: column;
+}
+.msg{
+    margin-left: 100px;
+    font-size: 16px;
+    background-color: rgb(213, 207, 207);
+    opacity: 0.8;
+    border-radius: 4px;
+    height: 32px;
+    width: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.following{
+    margin-right: 100px;
+}
+.follower{
+    margin-left: 45px;
+}
+.handle{
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.status{
+    opacity: 0.5;
+}
+.highlight{
+    height: 130px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 210px;
+    justify-content: space-between;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.p{
+    height: 77px;
+    width: 77px;
+    border: 2px double rgb(197, 191, 179);
+    border-radius: 50%;
+    
+}
+.box1{
+    background-image: url("img1.jpg");
+    background-size: cover;
+}
+.box2{
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+.box3{
+    background-image: url("img3.jpg");
+    background-size: cover;
+}
+
+.box4{
+    background-image: url("img4.jpg");
+    background-size: cover;
+}
+.h1{
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+.git{
+    color: blue;
+    opacity: 0.5;
+    border-radius: 5px;
+}

@@ -1,0 +1,70 @@
+*{
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    background-image: url("pen_image.webp");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+.in{
+    display: flex;
+}
+.name{
+    margin-top: 101px;
+    width: 300px;
+}
+.info{
+    display: flex;
+}
+.lin{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.rat{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #211f1f;
+}
+.two{
+    display: flex;
+    border: 2px solid rgb(31, 12, 245);
+    border-radius: 7px;
+}
+.one{
+    margin-left: 10px;
+    color: rgb(31, 12, 245);
+}
+.deal{
+    height: 20px;
+    width: 100px;
+    background-color: #cc0c39;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 12px;
+
+}
+.t{
+    margin-top: 2px;
+}
+.u{
+    display: flex;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.off{
+    margin-right: 10px;
+    color: #cc0c39;
+}
